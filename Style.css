@@ -1,0 +1,114 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+    padding: 20px;
+}
+nav ul{
+    background-color: rgba(240, 248, 255, 0.281);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header{
+    background-image: url(assests/img_h_3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 8pc;
+}
+.welcome{
+    padding-bottom: 5pc;
+    font-size: 20px;
+}
+.btn1{
+    padding: 5px;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+.btn2{
+    background-color: azure;
+    padding: 5px;
+    cursor: pointer;
+}
+.about{
+    display: inline-block;
+    margin: 5pc;
+}
+.img_about img{
+    width: 400px;
+    height: 350;
+    display: inline-block;
+
+}
+
+.content{
+    display: inline-block;
+    text-align: center;
+    padding: 9pc;
+
+}
+.content h1{
+    position: relative;
+    bottom: 4pc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content p{
+    position: relative;
+    bottom: 4pc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+.items{
+    text-align: center;
+    background-color: rgba(39, 76, 108, 0.21);
+    height: 30pc;
+}
+.item{
+    width: 23%;
+    text-align: center;
+    color: aliceblue;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+h2{
+    padding-top: 5pc;
+}
+.items .item img{
+  width: 100%;
+
+}
+.items .item .caption{
+    background-color: rgba(255, 0, 0, 0.151);
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    transition: all 1s .2s ease-in-out;
+}
+.caption{
+    width: 100%;
+}
+.items .item:hover .caption{
+    top: 0;
+}
+.items .item button{
+    text-align: center;
+    padding: 3px;
+    background-color: green;
+    color: aliceblue;
+    cursor: pointer;
+}
+p{
+    color: black;
+}
